@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Дарья Макина](https://up.htmlacademy.ru/adaptive/14/user/492363).
-* Наставник: `Неизвестно`.
+* Наставник: [Влад Слепкан](https://up.htmlacademy.ru/adaptive/14/user/383197).
 
 ---
 
