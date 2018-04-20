@@ -1,0 +1,35 @@
+.example {
+  margin: 0;
+  padding: 20px;
+  background: $extra-color;
+}
+
+.example__title {
+  margin: 0;
+  margin-bottom: 21px;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 60px;
+}
+
+.example__description {
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.example__resources {
+  display: flex;
+}
+
+.example__money {
+  font-family: "Oswald", "Arial", sans-serif;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.example__toggle {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,26 @@
+.promo {
+  max-height: 305px;
+  margin-bottom: 135px;
+  font-family: "Oswald", "Arial", sans-serif;
+  line-height: 14px;
+  text-align: center;
+  color: #ffffff;
+  background: $base-color url("./../img/index-background-mobile@1x.jpg") no-repeat;
+  width: 320px;
+}
+
+.promo__caption {
+  margin: 0;
+  padding: 0;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.promo__slogan {
+  margin: 0;
+  padding-bottom: 28px;
+  text-transform: uppercase;
+}

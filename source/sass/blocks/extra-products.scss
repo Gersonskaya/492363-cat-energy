@@ -1,0 +1,21 @@
+.extra-products {
+  padding: 30px 20px;
+  padding-bottom: 40px;
+}
+
+.extra-products__title {
+  margin: 0;
+  margin-bottom: 30px;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.extra-products__list {
+  border-top: 1px solid $extra-color;
+}
+
+.extra-products__item {
+  border-bottom: 1px solid $extra-color;
+}

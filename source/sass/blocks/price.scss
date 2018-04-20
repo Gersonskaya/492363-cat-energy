@@ -1,0 +1,8 @@
+.price__item {
+  padding: 25px 20px;
+  border: 1px solid $extra-color;
+  border-bottom: none;
+  &:last-child {
+    border-bottom: 1px solid $extra-color;
+  }
+}

@@ -1,0 +1,14 @@
+.social {
+  padding: 20px 76px;
+  border-top: 1px solid darken($extra-color, 10%);
+  border-bottom: 1px solid darken($extra-color, 10%);
+}
+
+.social__list {
+  display: flex;
+  justify-content: space-between;
+  width: 128px;
+}
+
+.social__button {
+}

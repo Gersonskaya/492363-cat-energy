@@ -1,0 +1,15 @@
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.copyright__title {
+  margin-top: 8px;
+  a {
+    font-size: 16px;
+    line-height: 16px;
+    text-decoration: none;
+    color: $text-color;
+  }
+}
