@@ -12,28 +12,28 @@
   border: none;
 }
 
-.program__button {
+.button--program {
   margin: 0 20px;
   padding: 11px 69px; /* 11px 72px */
   font-size: 14px;
   line-height: 18px;
 }
 
-.product__button {
+.button--product {
   padding: 11px 106px;
 }
 
-.load-more__button {
+.button--load-more {
   padding: 10px 91px;
   color: lighten($text-color, 21%);
   background: $extra-color;
 }
 
-.merchandise__button {
+.button--merchandise {
   padding: 10px 107px;
 }
 
-.info-questions__button {
+.button--info-questions {
   margin: 0 20px;
   margin-bottom: 24px;
   padding: 10px 74.5px;
