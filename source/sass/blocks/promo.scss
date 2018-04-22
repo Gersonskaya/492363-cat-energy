@@ -4,8 +4,8 @@
   font-family: "Oswald", "Arial", sans-serif;
   line-height: 14px;
   text-align: center;
-  color: #ffffff;
-  background: $base-color url("./../img/index-background-mobile@1x.jpg") no-repeat;
+  color: $base-color;
+  background: url("./../img/index-background-mobile@1x.jpg") no-repeat;
   width: 320px;
 }
 

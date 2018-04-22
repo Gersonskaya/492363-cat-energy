@@ -7,14 +7,14 @@
   font-size: 16px;
   line-height: 20px;
   font-weight: 400;
-  color: #ffffff;
-  background: $base-color;
+  color: $base-color;
+  background: $decor-color;
   border: none;
 }
 
 .button--program {
   margin: 0 20px;
-  padding: 11px 69px; /* 11px 72px */
+  padding: 11px 69px;
   font-size: 14px;
   line-height: 18px;
 }
@@ -25,15 +25,15 @@
 
 .button--load-more {
   padding: 10px 91px;
-  color: lighten($text-color, 21%);
-  background: $extra-color;
+  color: $text-color-light;
+  background: $block-color;
 }
 
 .button--merchandise {
   padding: 10px 107px;
 }
 
-.button--info-questions {
+.button--form {
   margin: 0 20px;
   margin-bottom: 24px;
   padding: 10px 74.5px;

@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   padding: 30px 20px;
-  background: #ffffff;
+  background: $base-color;
 }
 
 .address__title {
@@ -22,5 +22,5 @@
 
 .address--catalog,
 .address--form {
-  background: darken(#ffffff, 5%);
+  background: $block-color;
 }

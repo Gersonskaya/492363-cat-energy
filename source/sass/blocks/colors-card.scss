@@ -1,4 +1,14 @@
+/*
 $base-color: #64a83b;
-$menu-color: #e6e6e6;
+$extra-color: $block-color;
+*/
+
+$base-color: #ffffff;
+$block-color: darken($base-color, 5%);
+$line-color: darken($base-color, 15%);
+$weight-outline-color: darken($base-color, 7%);
+$menu-color: darken($base-color, 90%);
+$form-color: darken($base-color, 65%);
+$decor-color: #64a83b;
 $text-color: #111111;
-$extra-color: darken(#ffffff, 5%);
+$text-color-light: lighten($text-color, 20%);
