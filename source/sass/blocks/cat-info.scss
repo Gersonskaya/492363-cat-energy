@@ -1,0 +1,14 @@
+.cat-info {
+  margin: 0 20px;
+  margin-bottom: 9px;
+  padding: 0;
+  font-family: "Oswald", "Arial", sans-serif;
+  text-transform: uppercase;
+  border: none;
+}
+
+.cat-info__name,
+.cat-info__weight,
+.cat-info__year {
+  display: block;
+}

@@ -1,0 +1,25 @@
+.extra-product {
+  margin: 0 20px;
+  font-family: "Oswald", "Arial", sans-serif;
+  border: none;
+}
+
+.extra-product__title {
+  padding-bottom: 32px;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.extra-product__checkbox {
+  display: block;
+  margin-bottom: 12px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 16px;
+  text-transform: uppercase;
+
+  &:last-child {
+    margin-bottom: 34px;
+  }
+}

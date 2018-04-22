@@ -1,0 +1,17 @@
+.weight {
+  margin: 0;
+  padding: 0 20px;
+  border: 1px solid darken(#ffffff, 7%);
+}
+
+.weight__radio {
+  display: block;
+  margin-bottom: 25px;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+
+  &:first-child {
+    margin-top: 25px;
+  }
+}

@@ -1,0 +1,32 @@
+.product {
+  display: flex;
+}
+
+.product__info {
+  padding-top: 5px;
+}
+
+.product__title {
+  margin: 0;
+  margin-right: 60px;
+  margin-bottom: 17px;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.product__table {
+  min-width: 140px;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.product__column-left {
+  text-align: left;
+}
+
+.product__column-right {
+  text-align: right;
+}

@@ -1,0 +1,21 @@
+.boss-info {
+  margin: 0 20px;
+  margin-top: 30px;
+  margin-bottom: 17px;
+  padding: 0;
+  font-family: "Oswald", "Arial", sans-serif;
+  border: none;
+}
+
+.boss-info__title {
+  padding-bottom: 30px;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.boss-info__email,
+.boss-info__phone {
+  display: block;
+  text-transform: uppercase;
+}
