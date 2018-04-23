@@ -6,154 +6,156 @@
   <link href="./css/style.css" rel="stylesheet">
 </head>
 <body>
-<header class="page-header">
-  <a class="page-header__logo logo">
-    <img class="logo__image" src="http://placehold.it/150x100" width="100" height="20" alt="Логотип Cat Energy">
-  </a>
-  <nav class="main-nav">
-    <button class="main-nav__toggle" type="button">Mеню</button>
-    <div class="main-nav__hidden">
-      <ul class="main-nav__list site-navigation">
-        <li class="site-navigation__item">
-          <a href="index.html">Главная</a>
-        </li>
-        <li class="site-navigation__item">
-          <a href="catalog.html">Каталог продукции</a>
-        </li>
-        <li class="site-navigation__item site-navigation__item--active">
-          <a>Подбор программы</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-</header>
-
-<main class="page-main">
-  <h1 class="page-main__caption">Подбор программы</h1>
-  <section class="info">
-    <p class="info__description">Заполните анкету и мы подберем программу питания для вашего кота</p>
-    <form class="info__questions form" method="post" action="https://echo.htmlacademy.ru">
-      <fieldset class="cat-info">
-        <label class="cat-info__name">
-          Имя:*
-          <input class="form__input" name="name" type="text" placeholder="Барсик">
-        </label>
-        <label class="cat-info__weight">
-          Вес (кг):*
-          <input class="form__input" name="weight" type="number" placeholder="7">
-        </label>
-        <label class="cat-info__year">
-          Возраст (лет):*
-          <input class="form__input" name="year" type="number" placeholder="7">
-        </label>
-      </fieldset>
-
-      <fieldset class="weight">
-        <label class="weight__radio">
-          <input class="form__radio" name="fall" type="radio" checked>
-          Похудение
-        </label>
-        <label class="weight__radio">
-          <input class="form__radio" name="rise" type="radio">
-          Набор массы
-        </label>
-        <label class="weight__radio">
-          <input class="form__radio" name="advice" type="radio">
-          Не знаю (нужен ваш совет)
-        </label>
-      </fieldset>
-
-      <fieldset class="boss-info">
-        <legend class="boss-info__title">Контактные данные (владельца кота)</legend>
-        <label class="boss-info__email">
-          E-mail:*
-          <input class="form__input" name="email" type="email" placeholder="kuklachev@gmail.com">
-        </label>
-        <label class="boss-info__phone">
-          Телефон:*
-          <input class="form__input" name="phone" type="tel" placeholder="89609006090">
-        </label>
-      </fieldset>
-
-      <fieldset class="comment">
-        <legend class="comment__title">Комментарий</legend>
-        <label class="comment__story">
-          <textarea class="form__textarea" name="comment" cols="30" rows="10">Расскажите обо всех повадках кота</textarea>
-        </label>
-      </fieldset>
-
-      <fieldset class="extra-product">
-        <legend class="extra-product__title">Дополнительно</legend>
-        <label class="extra-product__checkbox">
-          <input class="form__checkbox" name="sweetener" type="checkbox" checked>
-          Сахарозаменитель
-        </label>
-        <label class="extra-product__checkbox">
-          <input class="form__checkbox" name="water" type="checkbox">
-          Питьевая вода
-        </label>
-        <label class="extra-product__checkbox">
-          <input class="form__checkbox" name="milk" type="checkbox">
-          Молоко
-        </label>
-        <label class="extra-product__checkbox">
-          <input class="form__checkbox" name="vitamins" type="checkbox">
-          Витамины
-        </label>
-      </fieldset>
-      <button class="button button--form" type="button">Отправить заявку</button>
-      <span class="form__required">* - Обязательные поля</span>
-    </form>
-  </section>
-
-
-  <section class="map">
-    <h2 class="map__title visually-hidden">Карта</h2>
-    <div class="map__address address address--form">
-      <h3 class="address__title">Приглашаем к сотрудничеству дилеров!</h3>
-      <p class="address__description">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
-    </div>
-    <div class="map__card">
-      <div class="map__marker"><img src="img/map-pin.png" width="60" height="53"></div>
-    </div>
-  </section>
-</main>
-
-<footer class="page-footer">
-  <section class="page-footer__logo">
-    <h2 class="logo-block__title visually-hidden">Логотип в футере</h2>
-    <a class="logo">
-      <img class="logo__image" src="http://placehold.it/150x100" width="128" height="24" alt="Логотип Cat Energy">
+<div class="container">
+  <header class="page-header">
+    <a class="page-header__logo logo">
+      <img class="logo__image" src="http://placehold.it/150x100" width="100" height="20" alt="Логотип Cat Energy">
     </a>
-  </section>
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button">Mеню</button>
+      <div class="main-nav__hidden">
+        <ul class="main-nav__list site-navigation">
+          <li class="site-navigation__item">
+            <a href="index.html">Главная</a>
+          </li>
+          <li class="site-navigation__item">
+            <a href="catalog.html">Каталог продукции</a>
+          </li>
+          <li class="site-navigation__item site-navigation__item--active">
+            <a>Подбор программы</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
-  <section class="page-footer__social social">
-    <h2 class="social__title visually-hidden">Социальные кнопки</h2>
-    <ul class="social__list">
-      <li class="social__button">
-        <a href="#">
-          <span class="visually-hidden">Вконтакте</span>
-          <img class="social__image" src="http://placehold.it/150x100" width="20" height="20" alt="Логотип Вконтакте">
-        </a>
-      </li>
-      <li class="social__button">
-        <a href="#">
-          <span class="visually-hidden">Инстаграм</span>
-          <img class="social__image" src="http://placehold.it/150x100" width="20" height="20" alt="Логотип Инстаграм">
-        </a>
-      <li class="social__button">
-        <a href="#">
-          <span class="visually-hidden">Фейсбук</span>
-          <img class="social__image" src="http://placehold.it/150x100" width="20" height="20" alt="Логотип Фейсбук">
-        </a>
-    </ul>
-  </section>
+  <main class="page-main">
+    <h1 class="page-main__caption">Подбор программы</h1>
+    <section class="info">
+      <p class="info__description">Заполните анкету и мы подберем программу питания для вашего кота</p>
+      <form class="info__questions form" method="post" action="https://echo.htmlacademy.ru">
+        <fieldset class="cat-info">
+          <label class="cat-info__name">
+            Имя:*
+            <input class="form__input" name="name" type="text" placeholder="Барсик">
+          </label>
+          <label class="cat-info__weight">
+            Вес (кг):*
+            <input class="form__input" name="weight" type="number" placeholder="7">
+          </label>
+          <label class="cat-info__year">
+            Возраст (лет):*
+            <input class="form__input" name="year" type="number" placeholder="7">
+          </label>
+        </fieldset>
 
-  <section class="page-footer__copyright copyright">
-    <h2 class="copyright__title visually-hidden">Логотип Академии</h2>
-    <span class="copyright__title"><a href="#">HTML Academy</a></span>
-    <img class="copyright__image" src="http://placehold.it/150x100" width="27" height="35" alt="Логотип Академии">
-  </section>
-</footer>
+        <fieldset class="weight">
+          <label class="weight__radio">
+            <input class="form__radio" name="fall" type="radio" checked>
+            Похудение
+          </label>
+          <label class="weight__radio">
+            <input class="form__radio" name="rise" type="radio">
+            Набор массы
+          </label>
+          <label class="weight__radio">
+            <input class="form__radio" name="advice" type="radio">
+            Не знаю (нужен ваш совет)
+          </label>
+        </fieldset>
+
+        <fieldset class="boss-info">
+          <legend class="boss-info__title">Контактные данные (владельца кота)</legend>
+          <label class="boss-info__email">
+            E-mail:*
+            <input class="form__input" name="email" type="email" placeholder="kuklachev@gmail.com">
+          </label>
+          <label class="boss-info__phone">
+            Телефон:*
+            <input class="form__input" name="phone" type="tel" placeholder="89609006090">
+          </label>
+        </fieldset>
+
+        <fieldset class="comment">
+          <legend class="comment__title">Комментарий</legend>
+          <label class="comment__story">
+            <textarea class="form__textarea" name="comment" cols="30" rows="10">Расскажите обо всех повадках кота</textarea>
+          </label>
+        </fieldset>
+
+        <fieldset class="extra-product">
+          <legend class="extra-product__title">Дополнительно</legend>
+          <label class="extra-product__checkbox">
+            <input class="form__checkbox" name="sweetener" type="checkbox" checked>
+            Сахарозаменитель
+          </label>
+          <label class="extra-product__checkbox">
+            <input class="form__checkbox" name="water" type="checkbox">
+            Питьевая вода
+          </label>
+          <label class="extra-product__checkbox">
+            <input class="form__checkbox" name="milk" type="checkbox">
+            Молоко
+          </label>
+          <label class="extra-product__checkbox">
+            <input class="form__checkbox" name="vitamins" type="checkbox">
+            Витамины
+          </label>
+        </fieldset>
+        <button class="button button--form" type="button">Отправить заявку</button>
+        <span class="form__required">* - Обязательные поля</span>
+      </form>
+    </section>
+
+
+    <section class="map">
+      <h2 class="map__title visually-hidden">Карта</h2>
+      <div class="map__address address address--form">
+        <h3 class="address__title">Приглашаем к сотрудничеству дилеров!</h3>
+        <p class="address__description">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
+      </div>
+      <div class="map__card">
+        <div class="map__marker"><img src="img/map-pin.png" width="60" height="53"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <section class="page-footer__logo">
+      <h2 class="logo-block__title visually-hidden">Логотип в футере</h2>
+      <a class="logo">
+        <img class="logo__image" src="http://placehold.it/150x100" width="128" height="24" alt="Логотип Cat Energy">
+      </a>
+    </section>
+
+    <section class="page-footer__social social">
+      <h2 class="social__title visually-hidden">Социальные кнопки</h2>
+      <ul class="social__list">
+        <li class="social__button">
+          <a href="#">
+            <span class="visually-hidden">Вконтакте</span>
+            <img class="social__image" src="http://placehold.it/150x100" width="20" height="20" alt="Логотип Вконтакте">
+          </a>
+        </li>
+        <li class="social__button">
+          <a href="#">
+            <span class="visually-hidden">Инстаграм</span>
+            <img class="social__image" src="http://placehold.it/150x100" width="20" height="20" alt="Логотип Инстаграм">
+          </a>
+        <li class="social__button">
+          <a href="#">
+            <span class="visually-hidden">Фейсбук</span>
+            <img class="social__image" src="http://placehold.it/150x100" width="20" height="20" alt="Логотип Фейсбук">
+          </a>
+      </ul>
+    </section>
+
+    <section class="page-footer__copyright copyright">
+      <h2 class="copyright__title visually-hidden">Логотип Академии</h2>
+      <span class="copyright__title"><a href="#">HTML Academy</a></span>
+      <img class="copyright__image" src="http://placehold.it/150x100" width="27" height="35" alt="Логотип Академии">
+    </section>
+  </footer>
+</div>
 </body>
 </html>
