@@ -1,4 +1,6 @@
 .program__list {
+  display: flex;
+  flex-direction: column;
   margin-top: 33px;
 }
 
@@ -33,4 +35,28 @@
   text-transform: uppercase;
   text-decoration: none;
   color: $text-color;
+}
+
+@media (min-width: $tablet-width) {
+  .program__item {
+    max-width: 608px;
+    padding: 60px 50px;
+    padding-right: 280px;
+  }
+
+  .program__description {
+    border: none;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .program-list {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .program__item {
+    max-width: 570px;
+    padding: 0;
+  }
 }

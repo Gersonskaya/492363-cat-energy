@@ -1,7 +1,5 @@
 .promo {
-  max-height: 305px;
   margin: 0 -20px;
-  margin-bottom: 135px;
   font-family: "Oswald", "Arial", sans-serif;
   line-height: 14px;
   text-align: center;
@@ -23,5 +21,44 @@
 .promo__slogan {
   margin: 0;
   padding-bottom: 28px;
+  line-height: 14px;
   text-transform: uppercase;
+}
+
+@media (min-width: $tablet-width) {
+  .promo {
+    width: inherit;
+    margin: 0;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    text-align: left;
+    color: $text-color;
+    background: none;
+  }
+
+  .promo__caption {
+    margin-left: 90px;
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .promo__slogan {
+    margin-left: 90px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .promo__image {
+    width: 709px;
+    height: 609px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .promo {
+    min-height: 555px;
+    margin: 80px;
+    margin-top: 35px;
+  }
 }

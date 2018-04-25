@@ -1,9 +1,16 @@
 $base-color: #ffffff;
+
 $block-color: darken($base-color, 5%);
 $weight-outline-color: darken($base-color, 7%);
 $menu-color: darken($base-color, 10%);
 $line-color: darken($base-color, 15%);
 $form-color: darken($base-color, 65%);
-$decor-color: #64a83b;
+
 $text-color: #111111;
+
 $text-color-light: lighten($text-color, 20%);
+
+$decor-color: #64a83b;
+
+$tablet-width: 768px;
+$desktop-width: 1300px;
