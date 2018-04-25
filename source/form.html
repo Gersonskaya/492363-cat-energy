@@ -53,29 +53,31 @@
 
         <fieldset class="weight">
           <label class="weight__radio">
-            <input class="form__radio" name="fall" type="radio" checked>
+            <input class="form__radio" name="weight" type="radio" checked>
             Похудение
           </label>
           <label class="weight__radio">
-            <input class="form__radio" name="rise" type="radio">
+            <input class="form__radio" name="weight" type="radio">
             Набор массы
           </label>
           <label class="weight__radio">
-            <input class="form__radio" name="advice" type="radio">
+            <input class="form__radio" name="weight" type="radio">
             Не знаю (нужен ваш совет)
           </label>
         </fieldset>
 
         <fieldset class="boss-info">
           <legend class="boss-info__title">Контактные данные (владельца кота)</legend>
-          <label class="boss-info__email">
-            E-mail:*
-            <input class="form__input" name="email" type="email" placeholder="kuklachev@gmail.com">
-          </label>
-          <label class="boss-info__phone">
-            Телефон:*
-            <input class="form__input" name="phone" type="tel" placeholder="89609006090">
-          </label>
+          <div class="boss-info__block">
+            <label class="boss-info__email">
+              E-mail:*
+              <input class="form__input" name="email" type="email" placeholder="kuklachev@gmail.com">
+            </label>
+            <label class="boss-info__phone">
+              Телефон:*
+              <input class="form__input" name="phone" type="tel" placeholder="89609006090">
+            </label>
+          </div>
         </fieldset>
 
         <fieldset class="comment">
@@ -87,22 +89,24 @@
 
         <fieldset class="extra-product">
           <legend class="extra-product__title">Дополнительно</legend>
-          <label class="extra-product__checkbox">
-            <input class="form__checkbox" name="sweetener" type="checkbox" checked>
-            Сахарозаменитель
-          </label>
-          <label class="extra-product__checkbox">
-            <input class="form__checkbox" name="water" type="checkbox">
-            Питьевая вода
-          </label>
-          <label class="extra-product__checkbox">
-            <input class="form__checkbox" name="milk" type="checkbox">
-            Молоко
-          </label>
-          <label class="extra-product__checkbox">
-            <input class="form__checkbox" name="vitamins" type="checkbox">
-            Витамины
-          </label>
+          <div class="extra-product__block">
+            <label class="extra-product__checkbox">
+              <input class="form__checkbox" name="sweetener" type="checkbox" checked>
+              Сахарозаменитель
+            </label>
+            <label class="extra-product__checkbox">
+              <input class="form__checkbox" name="water" type="checkbox">
+              Питьевая вода
+            </label>
+            <label class="extra-product__checkbox">
+              <input class="form__checkbox" name="milk" type="checkbox">
+              Молоко
+            </label>
+            <label class="extra-product__checkbox">
+              <input class="form__checkbox" name="vitamins" type="checkbox">
+              Витамины
+            </label>
+          </div>
         </fieldset>
         <button class="button button--form" type="button">Отправить заявку</button>
         <span class="form__required">* - Обязательные поля</span>
