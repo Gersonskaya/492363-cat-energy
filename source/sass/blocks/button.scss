@@ -19,11 +19,13 @@
 }
 
 .button--product {
-  padding: 11px 106px;
+  width: 100%;
+  padding: 10px 0;
 }
 
 .button--load-more {
-  padding: 10px 91px;
+  width: 100%;
+  padding: 10px 0;
   color: $text-color-light;
   background: $block-color;
 }
@@ -36,4 +38,10 @@
   margin: 0;
   margin-bottom: 24px;
   padding: 10px 73.5px;
+}
+
+@media (min-width: $tablet-width) {
+  .button--promo {
+    margin-left: 90px;
+  }
 }

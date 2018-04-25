@@ -24,3 +24,19 @@
 .address--form {
   background: $block-color;
 }
+
+@media (min-width: $tablet-width) {
+  .address {
+    max-height: 200px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .address {
+    position: absolute;
+    top: 95px;
+    left: 110px;
+    width: 570px;
+    background: $base-color;
+  }
+}

@@ -15,3 +15,10 @@
   align-items: center;
   margin-bottom: 14px;
 }
+
+@media (min-width: $desktop-width) {
+  .cat-info {
+    display: inline-block;
+    min-width: 570px;
+  }
+}

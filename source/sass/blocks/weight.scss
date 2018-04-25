@@ -15,3 +15,16 @@
     margin-top: 25px;
   }
 }
+
+@media (min-width: $tablet-width) {
+  .weight {
+    margin: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .weight {
+    display: inline-block;
+    max-width: 570px;
+  }
+}

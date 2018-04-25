@@ -5,3 +5,18 @@
   text-align: center;
   background: $block-color;
 }
+
+@media (min-width: $tablet-width) {
+  .page-footer {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 -30px;
+    padding: 0 30px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-footer {
+    margin: 0 -40px;
+  }
+}

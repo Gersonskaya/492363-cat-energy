@@ -50,7 +50,7 @@
 }
 
 @media (min-width: $desktop-width) {
-  .program-list {
+  .program__list {
     flex-direction: row;
     justify-content: space-around;
   }

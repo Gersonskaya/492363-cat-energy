@@ -1,7 +1,3 @@
-.form {
-  margin-bottom: 36px;
-}
-
 .form__required {
   display: block;
   text-align: center;
@@ -35,4 +31,10 @@
   text-transform: uppercase;
   color: $text-color-light;
   border: 1px solid $menu-color;
+}
+
+@media (min-width: $tablet-width) {
+  .form__required {
+    display: inline;
+  }
 }

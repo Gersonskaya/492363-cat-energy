@@ -28,17 +28,19 @@
 @media (min-width: $tablet-width) {
   .promo {
     width: inherit;
+    min-height: 810px;
     margin: 0;
     margin-top: 40px;
     margin-bottom: 20px;
     box-sizing: border-box;
     text-align: left;
     color: $text-color;
-    background: none;
+    background: url("./../img/index-can-mobile@1x.png") no-repeat 0 200px;
   }
 
   .promo__caption {
     margin-left: 90px;
+    padding-top: 0;
     font-size: 60px;
     line-height: 60px;
   }
@@ -50,6 +52,7 @@
   }
 
   .promo__image {
+    display: none;
     width: 709px;
     height: 609px;
   }
@@ -57,8 +60,8 @@
 
 @media (min-width: $desktop-width) {
   .promo {
-    min-height: 555px;
+    min-height: 630-80px;
     margin: 80px;
-    margin-top: 35px;
+    margin-top: 0;
   }
 }

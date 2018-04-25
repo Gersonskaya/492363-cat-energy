@@ -33,3 +33,37 @@
   display: flex;
   justify-content: center;
 }
+
+@media (min-width: $tablet-width) {
+  .example {
+    min-height: 1085px;
+    margin: 0 -30px;
+    background: url("./../img/after-before-tablet.png") no-repeat 0 450px;
+  }
+
+  .example__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .example__money {
+    margin-left: auto;
+  }
+
+  .example__item {
+    display: none;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .example {
+    min-height: 612px;
+    margin: 0 -40px;
+    background: url("./../img/after-before-desktop.png") no-repeat;
+  }
+
+  .example__block {
+    display: block;
+  }
+}

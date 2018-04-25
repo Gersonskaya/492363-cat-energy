@@ -24,3 +24,18 @@
     margin-bottom: 34px;
   }
 }
+
+@media (min-width: $tablet-width) {
+  .extra-product__block {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .extra-product__checkbox {
+    margin-right: 120px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  justify-content: space-between;
+}

@@ -18,3 +18,17 @@
   margin-bottom: 14px;
   line-height: 14px;
 }
+
+@media (min-width: $tablet-width) {
+  .merchandise {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .merchandise {
+    flex-wrap: no-wrap;
+  }
+}

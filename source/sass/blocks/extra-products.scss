@@ -19,3 +19,23 @@
 .extra-products__item {
   border-bottom: 1px solid $block-color;
 }
+
+@media (min-width: $tablet-width) {
+  .extra-products__list {
+    border: 1px solid $block-color;
+    border-bottom: none;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .extra-products {
+    display: inline-block;
+    width: 890px;
+    margin-right: 80px;
+  }
+
+  .extra-products__list {
+    border-right: none;
+    border-left: none;
+  }
+}
