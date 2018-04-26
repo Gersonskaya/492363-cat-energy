@@ -1,5 +1,5 @@
 .extra-products {
-  padding: 30px 20px;
+  padding: 30px 0;
   padding-bottom: 40px;
 }
 
@@ -13,9 +13,29 @@
 }
 
 .extra-products__list {
-  border-top: 1px solid $extra-color;
+  border-top: 1px solid $block-color;
 }
 
 .extra-products__item {
-  border-bottom: 1px solid $extra-color;
+  border-bottom: 1px solid $block-color;
+}
+
+@media (min-width: $tablet-width) {
+  .extra-products__list {
+    border: 1px solid $block-color;
+    border-bottom: none;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .extra-products {
+    display: inline-block;
+    width: 890px;
+    margin-right: 80px;
+  }
+
+  .extra-products__list {
+    border-right: none;
+    border-left: none;
+  }
 }

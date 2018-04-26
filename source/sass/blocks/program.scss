@@ -1,11 +1,13 @@
 .program__list {
+  display: flex;
+  flex-direction: column;
   margin-top: 33px;
 }
 
 .program__item {
-  margin: 20px;
+  margin: 20px 0;
   padding: 20px;
-  background: $extra-color;
+  background: $block-color;
 }
 
 .program__title {
@@ -22,7 +24,7 @@
 .program__description {
   margin-bottom: 20px;
   padding-bottom: 20px;
-  border-bottom: 1px solid darken($extra-color, 10%);
+  border-bottom: 1px solid $line-color;
 }
 
 .program__link {
@@ -33,4 +35,28 @@
   text-transform: uppercase;
   text-decoration: none;
   color: $text-color;
+}
+
+@media (min-width: $tablet-width) {
+  .program__item {
+    max-width: 608px;
+    padding: 60px 50px;
+    padding-right: 280px;
+  }
+
+  .program__description {
+    border: none;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .program__list {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .program__item {
+    max-width: 570px;
+    padding: 0;
+  }
 }

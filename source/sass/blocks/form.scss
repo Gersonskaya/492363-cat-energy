@@ -1,14 +1,21 @@
+.form__required {
+  display: block;
+  text-align: center;
+}
+
 .form__input {
-  margin-bottom: 14px;
+  flex-grow: 1;
+  margin-left: 12px;
   padding: 13px 15px;
   font-family: "Oswald", "Arial", sans-serif;
   text-transform: uppercase;
-  border: 1px solid #b2b2b2;
+  border: 1px solid $menu-color;
   box-sizing: border-box;
 }
 
 .form__radio,
 .form__checkbox {
+  margin: 0;
   margin-right: 20px;
 }
 
@@ -22,6 +29,12 @@
   font-size: 16px;
   font-weight: 400;
   text-transform: uppercase;
-  color: #444444;
-  border: 1px solid #b2b2b2;
+  color: $text-color-light;
+  border: 1px solid $menu-color;
+}
+
+@media (min-width: $tablet-width) {
+  .form__required {
+    display: inline;
+  }
 }

@@ -1,8 +1,15 @@
 .page-main__caption {
   margin: 0;
-  padding: 20px;
+  padding: 20px 0;
   font-family: "Oswald", "Arial", sans-serif;
   font-size: 36px;
   line-height: 60px;
   font-weight: 400;
+}
+
+@media (min-width: $tablet-width) {
+  .page-main__caption {
+    padding-top: 0;
+    padding-bottom: 70px;
+  }
 }

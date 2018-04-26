@@ -1,11 +1,17 @@
 .social {
   padding: 20px 76px;
-  border-top: 1px solid darken($extra-color, 10%);
-  border-bottom: 1px solid darken($extra-color, 10%);
+  border-top: 1px solid $line-color;
+  border-bottom: 1px solid $line-color;
 }
 
 .social__list {
   display: flex;
   justify-content: space-between;
   width: 128px;
+}
+
+@media (min-width: $tablet-width) {
+  .social {
+    border: none;
+  }
 }

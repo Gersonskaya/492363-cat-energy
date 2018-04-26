@@ -1,7 +1,27 @@
 .info__description {
   margin-top: 0;
   margin-bottom: 35px;
-  padding: 0 20px;
   font-family: "Oswald", "Arial", sans-serif;
   text-transform: uppercase;
+}
+
+@media (min-width: $tablet-width) {
+  .info__description {
+    padding: 0 40px;
+  }
+
+  .info__questions {
+    margin-bottom: 36px;
+    padding: 0 40px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .info__description {
+    padding: 0;
+  }
+
+  .info__questions {
+    padding: 0;
+  }
 }

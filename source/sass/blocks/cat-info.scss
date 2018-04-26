@@ -1,5 +1,5 @@
 .cat-info {
-  margin: 0 20px;
+  margin: 0;
   margin-bottom: 9px;
   padding: 0;
   font-family: "Oswald", "Arial", sans-serif;
@@ -10,5 +10,15 @@
 .cat-info__name,
 .cat-info__weight,
 .cat-info__year {
-  display: block;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+@media (min-width: $desktop-width) {
+  .cat-info {
+    display: inline-block;
+    min-width: 570px;
+  }
 }

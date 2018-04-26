@@ -1,3 +1,7 @@
+.site-navigation {
+  display: block;
+}
+
 .site-navigation__item {
   padding: 23px 0;
   font-family: "Oswald", "Arial", sans-serif;
@@ -6,10 +10,42 @@
   line-height: 20px;
   text-transform: uppercase;
   text-align: center;
-  border-bottom: 1px solid #e6e6e6;
+  border-bottom: 1px solid $menu-color;
 
   a {
     text-decoration: none;
-    color: #111111;
+    color: $text-color;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .site-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .site-navigation__item {
+    margin-right: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.86px;
+    border: none;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .site-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .site-navigation__item {
+    margin-right: 35px;
   }
 }

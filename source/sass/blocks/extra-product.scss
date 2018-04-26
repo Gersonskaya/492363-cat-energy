@@ -1,5 +1,6 @@
 .extra-product {
-  margin: 0 20px;
+  margin: 0;
+  padding: 0;
   font-family: "Oswald", "Arial", sans-serif;
   border: none;
 }
@@ -22,4 +23,19 @@
   &:last-child {
     margin-bottom: 34px;
   }
+}
+
+@media (min-width: $tablet-width) {
+  .extra-product__block {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .extra-product__checkbox {
+    margin-right: 120px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  justify-content: space-between;
 }

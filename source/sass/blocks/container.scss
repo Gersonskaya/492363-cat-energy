@@ -1,0 +1,17 @@
+.container {
+  padding: 0 20px;
+}
+
+@media (min-width: $tablet-width) {
+  .container {
+    padding: 0 30px;
+    padding-top: 25px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .container {
+    padding: 0 40px;
+    background: url("./../img/index-background-mobile@1x.jpg") no-repeat right top;
+  }
+}

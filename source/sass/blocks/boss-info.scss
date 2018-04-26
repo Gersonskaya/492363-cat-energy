@@ -1,5 +1,5 @@
 .boss-info {
-  margin: 0 20px;
+  margin: 0;
   margin-top: 30px;
   margin-bottom: 17px;
   padding: 0;
@@ -16,6 +16,21 @@
 
 .boss-info__email,
 .boss-info__phone {
-  display: block;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
   text-transform: uppercase;
+}
+
+@media (min-width: $desktop-width) {
+  .boss-info__block {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .boss-info__email,
+  .boss-info__phone {
+    flex-grow: 1;
+  }
 }

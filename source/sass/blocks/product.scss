@@ -30,3 +30,13 @@
 .product__column-right {
   text-align: right;
 }
+
+@media (min-width: $tablet-width) {
+  .product {
+    display: block;
+  }
+  /*
+  .product__info {
+    padding-top: 245px;
+  } */
+}

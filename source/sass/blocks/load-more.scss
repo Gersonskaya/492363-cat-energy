@@ -21,3 +21,9 @@
   font-size: 12px;
   line-height: 16px;
 }
+
+@media (min-width: $tablet-width) {
+  .load-more__image {
+    margin-bottom: 50px;
+  }
+}

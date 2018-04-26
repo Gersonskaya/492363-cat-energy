@@ -1,7 +1,7 @@
 .weight {
-  margin: 0;
+  margin: 0 -20px;
   padding: 0 20px;
-  border: 1px solid darken(#ffffff, 7%);
+  border: 1px solid $weight-outline-color;
 }
 
 .weight__radio {
@@ -13,5 +13,18 @@
 
   &:first-child {
     margin-top: 25px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .weight {
+    margin: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .weight {
+    display: inline-block;
+    max-width: 570px;
   }
 }
