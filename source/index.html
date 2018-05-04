@@ -10,12 +10,12 @@
 <body>
   <header class="page-header">
     <a class="page-header__logo logo">
-      <img class="logo__image" src="http://placehold.it/150x100" width="100" height="20" alt="Логотип Cat Energy">
+      <img class="logo__image logo__image--header" src="http://placehold.it/150x100" width="100" height="20" alt="Логотип Cat Energy">
     </a>
     <nav class="main-nav">
-      <button class="main-nav__toggle" type="button">Mеню</button>
+      <button class="main-nav__toggle main-nav__toggle--open" type="button"><span></span></button>
       <div class="main-nav__hidden">
-        <ul class="main-nav__list site-navigation">
+        <ul class="main-nav__list site-navigation site-navigation--index">
           <li class="site-navigation__item site-navigation__item--active">
             <a>Главная</a>
           </li>
@@ -63,25 +63,25 @@
     <section class="features">
       <h2 class="features__title">Как это работает</h2>
       <ul class="features__list">
-        <li class="features__item">
+        <li class="features__item features__item--one">
           <img class="features__image" src="img/advantage-leaf@1x.png" width="50" height="50" alt="Изображение преимуществ">
           <p class="features__description">
             Функциональное питание содержит только полезные питательные вещества.
           </p>
         </li>
-        <li class="features__item">
+        <li class="features__item features__item--two">
           <img class="features__image" src="img/advantage-powder@1x.png" width="50" height="50" alt="Изображение преимуществ">
           <p class="features__description">
             Выпускается в виде порошка, который нужно лишь залить кипятком и готово.
           </p>
         </li>
-        <li class="features__item">
+        <li class="features__item features__item--three">
           <img class="features__image" src="img/advantage-dining@1x.png" width="50" height="50" alt="Изображение преимуществ">
           <p class="features__description">
             Замените один-два приема обычной еды на наше функциональное питание.
           </p>
         </li>
-        <li class="features__item">
+        <li class="features__item features__item--four">
           <img class="features__image" src="img/advantage-clock@1x.png" width="50" height="50" alt="Изображение преимуществ">
           <p class="features__description">
             Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!
@@ -105,10 +105,10 @@
           </div>
           <div class="resource">
             60 дней
-            <span class="resource__name">затрачено времени</span>
+            <span class="resource__name resource__name--last">затрачено времени</span>
           </div>
         </div>
-        <p class="example__money">Затраты на питание: 15 000 руб.</p>
+        <p class="example__money">Затраты на питание: <span class="example__money-number">15 000 руб.</span></p>
       </div>
       <div class="example__slider slider">
         <ul class="example__list slider__list">
@@ -121,6 +121,7 @@
         </ul>
         <p class="example__toggle slider__toggles">
           <button class="slider__toggle slider__toggle--before" type="button">Было</button>
+          <span class="slider__image"></span>
           <button class="slider__toggle slider__toggle--after" type="button">Стало</button>
         </p>
       </div>
@@ -129,11 +130,13 @@
     <section class="map">
       <h2 class="map__title visually-hidden">Карта</h2>
       <div class="map__address address">
-        <h3 class="address__title">Приглашаем к сотрудничеству дилеров!</h3>
-        <p class="address__description">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
+        <h3 class="address__title">Приглашаем <br>к сотрудничеству дилеров!</h3>
+        <p class="address__description">ул. Большая Конюшенная, д. 19/8
+          <span class="address__city">Санкт-Петербург</span>
+        </p>
       </div>
       <div class="map__card">
-        <div class="map__marker"><img src="img/map-pin.png" width="60" height="53"></div>
+        <div class="map__marker"><img class="map__marker--size" src="img/map-pin.png" width="60" height="53"></div>
       </div>
     </section>
   </main>
@@ -142,7 +145,7 @@
     <section class="page-footer__logo">
       <h2 class="logo-block__title visually-hidden">Логотип в футере</h2>
       <a class="logo">
-        <img class="logo__image" src="http://placehold.it/150x100" width="128" height="24" alt="Логотип Cat Energy">
+        <img class="logo__image logo__image--footer" src="http://placehold.it/150x100" width="128" height="24" alt="Логотип Cat Energy">
       </a>
     </section>
 
@@ -152,18 +155,18 @@
         <li class="social__button">
           <a href="#">
             <span class="visually-hidden">Вконтакте</span>
-            <img class="social__image" src="http://placehold.it/150x100" width="20" height="20" alt="Логотип Вконтакте">
+            <img class="social__image" src="http://placehold.it/150x100" width="23" height="20" alt="Логотип Вконтакте">
           </a>
         </li>
         <li class="social__button">
           <a href="#">
             <span class="visually-hidden">Инстаграм</span>
-            <img class="social__image" src="http://placehold.it/150x100" width="20" height="20" alt="Логотип Инстаграм">
+            <img class="social__image" src="http://placehold.it/150x100" width="23" height="20" alt="Логотип Инстаграм">
           </a>
         <li class="social__button">
           <a href="#">
             <span class="visually-hidden">Фейсбук</span>
-            <img class="social__image" src="http://placehold.it/150x100" width="20" height="20" alt="Логотип Фейсбук">
+            <img class="social__image" src="http://placehold.it/150x100" width="23" height="20" alt="Логотип Фейсбук">
           </a>
       </ul>
     </section>

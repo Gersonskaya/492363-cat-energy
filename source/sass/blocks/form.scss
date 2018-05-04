@@ -5,12 +5,26 @@
 
 .form__input {
   flex-grow: 1;
-  margin-left: 12px;
-  padding: 13px 15px;
+  margin-left: 17px;
+  margin-bottom: 14px;
+  padding: 11.5px 15px;
   font-family: "Oswald", "Arial", sans-serif;
   text-transform: uppercase;
   border: 1px solid $menu-color;
   box-sizing: border-box;
+
+  &::placeholder {
+    font-size: 15px;
+  }
+}
+
+.form__input--cat-info {
+  margin-left: 17px;
+}
+
+.form__input--boss-info {
+  margin-left: 15px;
+  padding-right: 50px;
 }
 
 .form__radio,
@@ -21,20 +35,68 @@
 
 .form__textarea {
   width: 100%;
-  min-height: 83px;
-  margin-bottom: 30px;
-  padding: 13px 15px;
+  max-height: 150px;
+  margin-bottom: 24px;
+  padding: 10px 15px;
   box-sizing: border-box;
   font-family: "Oswald", "Arial", sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   text-transform: uppercase;
   color: $text-color-light;
   border: 1px solid $menu-color;
+
+  &::placeholder {
+    font-size: 15px;
+  }
 }
 
 @media (min-width: $tablet-width) {
+  .form__input {
+    padding: 11px 20px;
+    margin-bottom: 20px;
+    font-size: 19px;
+
+    &::placeholder {
+      font-size: 19px;
+    }
+  }
+
+  .form__input--cat-info {
+    margin-left: 15px;
+  }
+
+  .cat-info__year {
+    .form__input--cat-info {
+      margin-left: 6px;
+    }
+  }
+
+  .form__textarea {
+    max-height: 174px;
+    padding: 10px 19px;
+    margin-bottom: 20px;
+    font-size: 19px;
+
+    &::placeholder {
+      font-size: 19px;
+    }
+  }
+
+  .form__send {
+    display: flex;
+    align-items: center;
+  }
+
   .form__required {
-    display: inline;
+    display: block;
+    text-align: center;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .form__cat-info--desktop {
+    display: flex;
+    margin-bottom: 72px;
   }
 }

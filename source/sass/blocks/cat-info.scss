@@ -13,12 +13,37 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 14px;
+}
+
+.cat-info__label {
+  padding-bottom: 14px;
+}
+
+@media (min-width: $tablet-width) {
+  .cat-info {
+    font-size: 19px;
+    margin-bottom: 52px;
+  }
+
+  .cat-info__name,
+  .cat-info__weight,
+  .cat-info__year {
+    align-items: baseline;
+    padding-left: 3px;
+    font-size: 19px;
+  }
 }
 
 @media (min-width: $desktop-width) {
   .cat-info {
-    display: inline-block;
     min-width: 570px;
+    margin: 0;
+    margin-right: 80px;
+  }
+
+  .cat-info__year {
+    .form__input {
+      margin-bottom: 0;
+    }
   }
 }

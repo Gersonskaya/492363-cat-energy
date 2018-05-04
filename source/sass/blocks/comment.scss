@@ -1,12 +1,58 @@
 .comment {
   padding: 0;
+  margin: 0;
   border: none;
 }
 
 .comment__title {
-  padding-bottom: 30px;
+  position: relative;
+  padding: 0;
+  padding-bottom: 35px;
   font-family: "Oswald", "Arial", sans-serif;
   font-size: 24px;
   line-height: 24px;
   font-weight: 400;
+
+  &::before {
+    position: absolute;
+    top: 14px;
+    right: -172px;
+    content: "";
+    min-width: 157px;
+    min-height: 1px;
+    border-top: 3px solid $decor-color;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .comment {
+    margin-bottom: 40px;
+  }
+
+  .comment__title {
+    width: 180px;
+    margin-left: -40px;
+    margin-bottom: 81px;
+    padding: 0 40px;
+    font-size: 34px;
+    background: $base-color;
+
+    &::before {
+      top: 15px;
+      left: -30px;
+      z-index: -1;
+      min-width: 769px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .comment {
+    margin-bottom: 42px;
+  }
+
+  .comment__title::before {
+    left: -25px;
+    min-width: 1347px;
+  }
 }

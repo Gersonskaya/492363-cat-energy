@@ -1,5 +1,6 @@
 .social {
-  padding: 20px 76px;
+  padding: 21px 73px;
+  padding-bottom: 17px;
   border-top: 1px solid $line-color;
   border-bottom: 1px solid $line-color;
 }
@@ -12,6 +13,16 @@
 
 @media (min-width: $tablet-width) {
   .social {
+    padding: 27px 0;
     border: none;
+  }
+
+  .social__list {
+    width: 135px;
+  }
+
+  .social__image {
+    width: 30px;
+    height: 30px;
   }
 }
