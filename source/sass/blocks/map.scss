@@ -10,9 +10,8 @@
 
 .map__marker {
   position: absolute;
-  top: 253px;
-  left: 131px;
-  display: inline-block;
+  top: 126px;
+  left: 65px;
 }
 
 @media (min-width: $tablet-width) {
@@ -23,8 +22,8 @@
   }
 
   .map__marker {
-    top: 349px;
-    left: 321px;
+    top: 174px;
+    left: 161px;
   }
 
   .map__marker--size {
@@ -45,7 +44,7 @@
   }
 
   .map__marker {
-    top: 150px;
-    left: 928px;
+    top: 75px;
+    left: 464px;
   }
 }
