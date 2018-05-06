@@ -1,10 +1,15 @@
 .promo {
+  width: 320px;
   font-family: "Oswald", "Arial", sans-serif;
   line-height: 14px;
   text-align: center;
   color: $base-color;
   background: url("./../img/index-background-mobile@1x.jpg") no-repeat;
-  width: 320px;
+
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("./../img/index-background-mobile@2x.jpg");
+    background-size: 320px auto;
+  }
 }
 
 .promo__caption {
