@@ -11,6 +11,19 @@
   width: 128px;
 }
 
+.social__button--instagram {
+  padding-top: 4px;
+}
+
+.social__image-vkontakte {
+  padding-top: 2px;
+}
+
+.social__image--facebook {
+  padding-top: 1px;
+  margin-right: -4px;
+}
+
 @media (min-width: $tablet-width) {
   .social {
     padding: 27px 0;
