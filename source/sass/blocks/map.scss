@@ -6,6 +6,11 @@
 .map__card {
   height: 400px;
   background: url("./../img/bg-map-mobile@1x.png");
+
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("./../img/bg-map-mobile@2x.png");
+    background-size: 320px auto;
+  }
 }
 
 .map__marker {
@@ -18,7 +23,12 @@
   .map__card {
     width: 100%;
     min-height: 520px;
-    background-size: cover;
+    background: url("./../img/bg-map-tablet@1x.png");
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("./../img/bg-map-tablet@2x.png");
+      background-size: 768px auto;
+    }
   }
 
   .map__marker {
@@ -39,6 +49,12 @@
 
   .map__card {
     min-height: 400px;
+    background: url("./../img/bg-map-desktop@21.png");
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("./../img/bg-map-desktop@2x.png");
+      background-size: 1300px auto;
+    }
   }
 
   .map__marker {
