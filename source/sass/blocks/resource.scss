@@ -1,4 +1,62 @@
 .resource {
+  position: relative;
+  width: 121px;
+  padding: 15px 0;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-align: center;
   border: 1px solid $line-color;
   border-radius: 5px;
+}
+
+.resource__name {
+  position: absolute;
+  top: 46px;
+  left: 11px;
+  max-width: 67px;
+  padding: 0 15px;
+  font-family: "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: none;
+  background: $block-color;
+}
+
+@media (min-width: $tablet-width) {
+  .resource {
+    width: 159px;
+    margin-right: 42px;
+    padding: 20px 0;
+    font-size: 30px;
+    line-height: 30px;
+    border-radius: 3px;
+  }
+
+  .resource__name {
+    top: 63px;
+    left: 22px;
+    max-width: 114px;
+    padding: 0 9px;
+    font-size: 14px;
+    height: 14px;
+    background: $base-color;
+  }
+
+  .resource__name--last {
+    left: 9px;
+    min-width: 127px;
+    padding: 0 7px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .resource {
+    margin-right: 0;
+  }
+
+  .resource__name {
+    background: #f2f2f2;
+  }
 }

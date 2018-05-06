@@ -1,6 +1,6 @@
 .example {
-  margin: 0 -20px;
   padding: 20px;
+  padding-right: 21px;
   background: $block-color;
 }
 
@@ -20,25 +20,51 @@
 
 .example__resources {
   display: flex;
+  justify-content: space-between;
 }
 
 .example__money {
+  margin: 34px 0;
   font-family: "Oswald", "Arial", sans-serif;
   line-height: 20px;
   text-transform: uppercase;
   text-align: center;
 }
 
+.example__list {
+  margin-left: -20px;
+  margin-bottom: 28px;
+}
+
+.example__item--after {
+  display: none;
+}
+
 .example__toggle {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  margin-left: 43px;
+  margin-right: 38px;
+  margin-bottom: 16px;
 }
 
 @media (min-width: $tablet-width) {
   .example {
-    min-height: 1085px;
-    margin: 0 -30px;
-    background: url("./../img/after-before-tablet.png") no-repeat 0 450px;
+    position: relative;
+    min-height: 1035px;
+    padding: 0 30px;
+    background: url("./../img/after-before-tablet.png") no-repeat 0 406px;
+  }
+
+  .example__title {
+    margin-bottom: 63px;
+    font-size: 56px;
+  }
+
+  .example__description {
+    padding-right: 30px;
+    margin: 0;
+    margin-bottom: 52px;
   }
 
   .example__block {
@@ -48,22 +74,60 @@
   }
 
   .example__money {
+    width: 184px;
+    margin: 0;
     margin-left: auto;
+    font-size: 19px;
+    line-height: 28px;
+    text-align: right;
   }
 
   .example__item {
     display: none;
+  }
+
+  .example__slider {
+    position: absolute;
+    bottom: 50px;
+    left: 53px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .example {
     min-height: 612px;
-    margin: 0 -40px;
-    background: url("./../img/after-before-desktop.png") no-repeat;
+    padding-left: 40px;
+    padding-right: 795px;
+    padding-bottom: 40px;
+    background: url("./../img/after-before-desktop.png") no-repeat -70px 0;
+  }
+
+  .example__title {
+    margin-bottom: 146px;
+    padding-top: 55px;
+  }
+
+  .example__description {
+    margin-bottom: 68px;
   }
 
   .example__block {
     display: block;
+  }
+
+  .example__resources {
+    width: 365px;
+  }
+
+  .example__money {
+    width: auto;
+    margin-top: 55px;
+    margin-left: 0;
+    text-align: left;
+  }
+
+  .example__money-number {
+    padding: 0 60px;
+    text-align: center;
   }
 }

@@ -1,22 +1,41 @@
+.info {
+  padding: 20px;
+  padding-top: 0;
+  padding-bottom: 31px;
+}
+
 .info__description {
   margin-top: 0;
-  margin-bottom: 35px;
+  margin-bottom: 39px;
   font-family: "Oswald", "Arial", sans-serif;
   text-transform: uppercase;
 }
 
 @media (min-width: $tablet-width) {
+  .info {
+    padding: 0 30px;
+  }
+
   .info__description {
-    padding: 0 40px;
+    width: 330px;
+    margin-bottom: 66px;
+    padding-left: 40px;
+    font-size: 19px;
+    line-height: 30px;
   }
 
   .info__questions {
-    margin-bottom: 36px;
-    padding: 0 40px;
+    margin-bottom: 71px;
+    padding: 0 38px;
   }
 }
 
 @media (min-width: $desktop-width) {
+  .info {
+    padding: 0 40px;
+    margin-bottom: 82px;
+  }
+
   .info__description {
     padding: 0;
   }

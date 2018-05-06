@@ -31,17 +31,66 @@
 }
 
 .button--merchandise {
-  padding: 10px 107px;
+  width: 100%;
+  padding: 10px 0;
 }
 
 .button--form {
   margin: 0;
-  margin-bottom: 24px;
+  margin-bottom: 21px;
+  width: 100%;
   padding: 10px 73.5px;
 }
 
 @media (min-width: $tablet-width) {
   .button--promo {
-    margin-left: 90px;
+    margin-left: 119px;
+    padding: 12.5px 25px;
+    padding-right: 30px;
+    font-size: 18.8px;
+  }
+
+  .button--product,
+  .button--load-more {
+    width: 249px;
+    margin: 0 37px;
+    margin-bottom: 40px;
+  }
+
+  .button--merchandise {
+    margin-top: 7px;
+  }
+
+  .button--form {
+    width: 285px;
+    margin: 0;
+    margin-right: 61px;
+    padding: 16px 0;
+    font-size: 18.8px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .button--promo {
+    margin-left: 41px;
+  }
+
+  .button--product,
+  .button--load-more {
+    max-width: 169px;
+    margin: 0 38px;
+    margin-bottom: 40px;
+  }
+
+  .button--merchandise {
+    width: 246px;
+    margin-top: 0;
+    margin-left: 37px;
+  }
+
+  .button--form {
+    width: 569px;
+    margin-right: 82px;
+    font-size: 19px;
   }
 }

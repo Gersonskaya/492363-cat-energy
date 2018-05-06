@@ -1,19 +1,17 @@
-.action {
-  margin-bottom: 35px;
-}
-
 .action__background {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   min-height: 289px;
+  padding: 32px 50px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
   background: url("./../img/gift-photo-mobile@1x.jpg");
 }
 
 .action__description {
   margin: 0;
-  padding: 0 50px;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
@@ -21,14 +19,27 @@
 }
 
 @media (min-width: $tablet-width) {
+  .action {
+    max-height: 165px;
+  }
+
   .action__background {
     flex-direction: row;
     align-items: center;
-    width: 100%;
-    height: 200px;
+    justify-content: space-between;
+    min-height: 200px;
+    padding: 0 90px;
+    background-size: cover;
+    background-position: 0 -350px;
+  }
+
+  .action__image {
+    padding-bottom: 10px;
   }
 
   .action__description {
+    width: 195px;
+    padding-top: 4px;
     text-align: left;
   }
 }
@@ -36,13 +47,17 @@
 @media (min-width: $desktop-width) {
   .action {
     margin: 0;
-    display: inline-block;
-    max-width: 245px;
+    width: 245px;
   }
 
   .action__background {
-    display: block;
     flex-direction: column;
+    justify-content: space-around;
+    min-height: 290px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-position: 0 0;
+    background-size: auto;
   }
 
   .action__description {
