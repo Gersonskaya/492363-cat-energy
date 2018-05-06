@@ -9,10 +9,47 @@
 }
 
 .program__item {
+  position: relative;
   margin-bottom: 20px;
   padding: 20px;
   padding-top: 18px;
   background: $block-color;
+
+  &::before {
+    position: absolute;
+    top: 24px;
+    left: 22px;
+    content: "";
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: $decor-color;
+  }
+
+  &::after {
+    position: absolute;
+    content: "";
+  }
+}
+
+.program__item--slim {
+  &::after {
+    top: 22px;
+    left: 31px;
+    width: 49px;
+    height: 49px;
+    background: url("./../img/icon-cat-slim.svg") no-repeat;
+  }
+}
+
+.program__item--pro {
+  &::after {
+    top: 34px;
+    left: 14px;
+    width: 66px;
+    height: 48px;
+    background: url("./../img/icon-cat-pro.svg") no-repeat;
+  }
 }
 
 .program__title {
