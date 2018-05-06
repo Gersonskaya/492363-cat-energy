@@ -1,9 +1,13 @@
 .logo__image {
-  margin: 23px 0;
-}
+  margin: 0;
 
-.logo__image--header {
-  margin: 11px 20px;
+  .logo__image--header {
+    margin: 11px 20px;
+  }
+
+  .logo__image--footer {
+    margin: 23px 0;
+  }
 }
 
 @media (min-width: $tablet-width) {
