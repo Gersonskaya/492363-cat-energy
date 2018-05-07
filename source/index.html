@@ -117,10 +117,24 @@
       <div class="example__slider slider">
         <ul class="example__list slider__list">
           <li>
-            <img class="example__item example__item--before slider__item" src="img/before-mobile@1x.png" width="320" height="240" alt="Кот Борис до замены корма">
+            <picture>
+              <source media="(min-width: 1300px), (min-resolution: 144dpi), (min-resolution: 1.5dppx)" srcset="./img/before-desktop@2x.png">
+              <source media="(min-width: 1300px)" srcset="./img/before-desktop@1x.png">
+              <source media="(min-width: 768px),(min-resolution: 144dpi), (min-resolution: 1.5dppx)" srcset="./img/before-tablet@2x.png">
+              <source media="(min-width: 768px)" srcset="./img/before-tablet@1x.png">
+              <source media="(min-resolution: 144dpi), (min-resolution: 1.5dppx)" srcset="img/before-mobile@2x.png">
+              <img class="example__item example__item--before slider__item" src="img/before-mobile@1x.png" width="320" height="240" alt="Кот Борис до замены корма">
+            </picture>
           </li>
           <li>
-            <img class="example__item example__item--after slider__item" src="img/after-mobile@1x.png" width="320" height="240" alt="Похудевший кот Борис">
+            <picture>
+              <source media="(min-width: 1300px), (min-resolution: 144dpi), (min-resolution: 1.5dppx)" srcset="./img/after-desktop@2x.png">
+              <source media="(min-width: 1300px)" srcset="./img/after-desktop@1x.png">
+              <source media="(min-width: 768px),(min-resolutio0n: 144dpi), (min-resolution: 1.5dppx)" srcset="./img/after-tablet@2x.png">
+              <source media="(min-width: 768px)" srcset="./img/after-tablet@1x.png">
+              <source media="(min-resolution: 144dpi), (min-resolution: 1.5dppx)" srcset="img/after-mobile@2x.png">
+              <img class="example__item example__item--after slider__item" src="img/after-mobile@1x.png" width="320" height="240" alt="Похудевший кот Борис">
+            </picture>
           </li>
         </ul>
         <p class="example__toggle slider__toggles">
