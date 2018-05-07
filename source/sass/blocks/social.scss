@@ -13,6 +13,7 @@
 
 .social__button--instagram {
   padding-top: 4px;
+  padding-left: 1px;
 }
 
 .social__image-vkontakte {
@@ -37,5 +38,10 @@
   .social__image {
     width: 30px;
     height: 30px;
+  }
+
+  .social__button--instagram {
+    width: 23px;
+    height: auto;
   }
 }
