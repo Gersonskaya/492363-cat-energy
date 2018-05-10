@@ -25,17 +25,14 @@
     border-radius: 50%;
     background: $decor-color;
   }
-
-  &::after {
-    position: absolute;
-    content: "";
-  }
 }
 
 .program__item--slim {
   &::after {
+    position: absolute;
     top: 22px;
     left: 31px;
+    content: "";
     width: 49px;
     height: 49px;
     background: url("./../img/icon-cat-slim.svg") no-repeat;
@@ -44,8 +41,10 @@
 
 .program__item--pro {
   &::after {
+    position: absolute;
     top: 34px;
     left: 14px;
+    content: "";
     width: 66px;
     height: 48px;
     background: url("./../img/icon-cat-pro.svg") no-repeat;
@@ -71,6 +70,7 @@
 }
 
 .program__link {
+  position: relative;
   font-family: "Oswald", "Arial", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -78,6 +78,25 @@
   text-transform: uppercase;
   text-decoration: none;
   color: $text-color;
+
+  &::before {
+    position: absolute;
+    top: 6px;
+    left: 96px;
+    content: "";
+    width: 24px;
+    height: 11px;
+    background: url("./../img/icon-right-arrow-long.svg") no-repeat;
+  }
+
+  &:hover::before {
+    width: 33px;
+    background: url("./../img/icon-right-arrow-verylong.svg") no-repeat;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 @media (min-width: $tablet-width) {
@@ -102,6 +121,48 @@
       padding-right: 312px;
       margin-bottom: 0;
     }
+
+    &::before {
+      top: 92px;
+      left: 446px;
+      width: 200px;
+      height: 200px;
+    }
+  }
+
+  .program__item--slim {
+    &::after {
+      top: 80px;
+      left: 476px;
+      width: 200px;
+      height: 194px;
+    }
+
+    .program__link::before {
+      position: absolute;
+      top: 11px;
+      left: 132px;
+    }
+  }
+
+  .program__item--pro {
+    &::after {
+      top: 135px;
+      left: 412px;
+      width: 269px;
+      height: 200px;
+    }
+
+    .program__link::before {
+      position: absolute;
+      top: 11px;
+      left: 125px;
+    }
+  }
+
+  .program__link {
+    font-size: 19px;
+    line-height: 19px;
   }
 
   .program__title {
@@ -115,11 +176,6 @@
     margin-bottom: 56px;
     padding: 0;
     border: none;
-  }
-
-  .program__link {
-    font-size: 19px;
-    line-height: 19px;
   }
 }
 
@@ -140,6 +196,25 @@
     margin-right: 80px;
     padding: 76px 54px;
     padding-bottom: 58px;
+
+    &::before {
+      top: 48px;
+      left: 52px;
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+  .program__item--slim::after {
+    top: 42px;
+    left: 66px;
+    width: 70px;
+  }
+
+  .program__item--pro::after {
+    top: 70px;
+    left: 35px;
+    width: 133px;
   }
 
   .program__item:nth-child(2) {

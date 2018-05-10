@@ -1,6 +1,6 @@
 .features {
   padding: 0 20px;
-  margin-bottom: 42px;
+  margin-bottom: 40px;
 }
 
 .features__title {
@@ -15,7 +15,7 @@
 
 .features__item {
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 
   &:last-child {
     margin: 0;
@@ -37,7 +37,7 @@
 @media (min-width: $tablet-width) {
   .features {
     padding: 0 30px;
-    margin-bottom: 44px;
+    margin-bottom: 45px;
     border-bottom: 1px solid $line-color;
   }
 
@@ -55,14 +55,60 @@
   }
 
   .features__item {
+    position: relative;
     display: block;
     max-width: 265px;
-    min-height: 297px;
+    min-height: 296px;
+    margin-bottom: 22px;
 
     &:nth-child(3),
     &:nth-child(4) {
       margin-bottom: -11px;
     }
+  }
+
+  .features__item--one::after {
+    position: absolute;
+    top: 89px;
+    right: 36px;
+    z-index: -1;
+    content: "1";
+    font-family: "Oswald", "Arial", sans-serif;
+    font-size: 281.07px;
+    color: $block-color;
+  }
+
+  .features__item--two::after {
+    position: absolute;
+    top: 89px;
+    right: 36px;
+    z-index: -1;
+    content: "2";
+    font-family: "Oswald", "Arial", sans-serif;
+    font-size: 281.07px;
+    color: $block-color;
+  }
+
+  .features__item--three::after {
+    position: absolute;
+    top: 89px;
+    right: 36px;
+    z-index: -1;
+    content: "3";
+    font-family: "Oswald", "Arial", sans-serif;
+    font-size: 281.07px;
+    color: $block-color;
+  }
+
+  .features__item--four::after {
+    position: absolute;
+    top: 89px;
+    right: 36px;
+    z-index: -1;
+    content: "4";
+    font-family: "Oswald", "Arial", sans-serif;
+    font-size: 281.07px;
+    color: $block-color;
   }
 
   .features__image {

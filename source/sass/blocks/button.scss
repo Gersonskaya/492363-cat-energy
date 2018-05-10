@@ -10,6 +10,19 @@
   color: $base-color;
   background: $decor-color;
   border: none;
+
+  &:hover {
+    background: $decor-hover-color;
+  }
+
+  &:active {
+    color: $base-color-down;
+    outline: none;
+  }
+
+  &:focus {
+    outline: none;
+  }
 }
 
 .button--promo {
@@ -19,15 +32,29 @@
 }
 
 .button--product {
-  width: 100%;
+  position: absolute;
+  bottom: 23px;
+  width: 280px;
   padding: 10px 0;
 }
 
+
 .button--load-more {
-  width: 100%;
+  position: absolute;
+  bottom: 23px;
+  width: 280px;
   padding: 10px 0;
-  color: $text-color-light;
+  color: $grey-button;
   background: $block-color;
+
+  &:hover {
+    background: $block-color;
+  }
+
+  &:active {
+    color: $grey-button-down;
+    outline: none;
+  }
 }
 
 .button--merchandise {
@@ -54,7 +81,7 @@
   .button--load-more {
     width: 249px;
     margin: 0 37px;
-    margin-bottom: 40px;
+    margin-bottom: 17px;
   }
 
   .button--merchandise {
@@ -79,7 +106,7 @@
   .button--load-more {
     max-width: 169px;
     margin: 0 38px;
-    margin-bottom: 40px;
+    margin-bottom: 17px;
   }
 
   .button--merchandise {

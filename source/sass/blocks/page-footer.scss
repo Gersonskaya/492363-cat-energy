@@ -18,13 +18,14 @@
 
   .page-footer__logo {
     padding-bottom: 5px;
-    margin-right: 30px;
+    margin-left: -22px;
+    margin-right: -8px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .page-footer {
-    padding: 33px 40px;
-    padding-bottom: 17px;
+    padding: 33px 39px;
+    padding-bottom: 26px;
   }
 }

@@ -1,12 +1,14 @@
 .example {
-  padding: 20px;
+  padding-top: 15px;
+  padding-left: 20px;
   padding-right: 21px;
+  padding-bottom: 20px;
   background: $block-color;
 }
 
 .example__title {
   margin: 0;
-  margin-bottom: 21px;
+  margin-bottom: 23px;
   font-family: "Oswald", "Arial", sans-serif;
   font-weight: 400;
   font-size: 36px;
