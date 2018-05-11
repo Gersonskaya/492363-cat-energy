@@ -9,6 +9,7 @@
 
 .boss-info__title {
   position: relative;
+  width: 200px;
   padding: 0;
   padding-bottom: 33px;
   font-size: 24px;
@@ -18,7 +19,7 @@
   &::after {
     position: absolute;
     top: 14px;
-    right: -20px;
+    right: -100px;
     content: "";
     min-width: 99px;
     min-height: 1px;
@@ -35,6 +36,7 @@
   text-transform: uppercase;
 
   .form__input--boss-info {
+    width: 100%;
     margin-bottom: 0;
   }
 }

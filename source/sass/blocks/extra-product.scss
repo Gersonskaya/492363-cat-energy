@@ -8,7 +8,7 @@
 .extra-product__title {
   position: relative;
   padding: 0;
-  padding-bottom: 40px;
+  padding-bottom: 33px;
   font-size: 24px;
   line-height: 24px;
   font-weight: 400;
@@ -27,13 +27,14 @@
 .extra-product__block {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 9px;
-  margin-bottom: 13px;
+  margin-bottom: 2px;
 }
 
 .extra-product__checkbox {
   position: relative;
-  min-width: 210px;
+  width: 100%;
+  margin-bottom: 12px;
+  margin-left: 45px;
   padding-top: 6px;
   padding-bottom: 6px;
   font-size: 16px;
