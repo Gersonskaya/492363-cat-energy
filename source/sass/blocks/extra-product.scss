@@ -35,8 +35,7 @@
   width: 100%;
   margin-bottom: 12px;
   margin-left: 45px;
-  padding-top: 6px;
-  padding-bottom: 6px;
+  line-height: 32px;
   font-size: 16px;
   text-transform: uppercase;
   cursor: pointer;
@@ -99,8 +98,7 @@
   .extra-product__checkbox {
     width: 226px;
     margin-bottom: 33px;
-    padding-top: 6px;
-    padding-bottom: 9px;
+    line-height: 40px;
     padding-left: 22px;
     font-size: 19px;
 
@@ -120,7 +118,7 @@
 
   .extra-product__title::after {
     left: -25px;
-    min-width: 1347px;
+    min-width: 1300px;
   }
 
   .extra-product__block {

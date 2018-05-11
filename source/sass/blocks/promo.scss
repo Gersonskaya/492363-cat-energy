@@ -41,13 +41,11 @@
     box-sizing: border-box;
     text-align: left;
     color: $text-color;
-    background: url("./../img/index-can-tablet@1x.jpg") no-repeat 30px 200px;
+    background: url("./../img/index-can-tablet@1x.jpg") no-repeat center bottom;
 
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-size: 92% auto;
       background-image: url("./../img/index-can-tablet@2x.jpg");
-      background-size: 1418px auto;
-      background-repeat: no-repeat;
-      background-position: 30px 200px;
     }
   }
 
