@@ -19,7 +19,9 @@
 
 @media (min-width: $desktop-width) {
   .page-header {
-    margin-right: 40px;
-    margin-bottom: 62px;
+    max-width: $desktop-width;
+    margin: 0;
+    padding-right: 40px;
+    padding-bottom: 62px;
   }
 }
