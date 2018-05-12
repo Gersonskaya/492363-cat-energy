@@ -68,16 +68,16 @@
   }
 
   .extra-products__title {
-    margin: 16px -40px;
+    margin: 16px -15px;
     margin-bottom: 86px;
-    padding-left: 39px;
-    padding-right: 34px;
-  }
+    padding-left: 15px;
+    padding-right: 35px;
 
-  .extra-products__title::before {
-    top: 16px;
-    left: -25px;
-    min-width: 1300px;
+    &::before {
+      top: 16px;
+      left: -25px;
+      min-width: 1300px;
+    }
   }
 
   .extra-products__price {

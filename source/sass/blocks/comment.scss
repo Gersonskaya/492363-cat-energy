@@ -51,8 +51,14 @@
     margin-bottom: 42px;
   }
 
-  .comment__title::before {
-    left: -25px;
-    min-width: 1300px;
+  .comment__title {
+    width: inherit;
+    margin-left: -15px;
+    padding: 0 15px;
+
+    &::before {
+      left: -25px;
+      min-width: 1300px;
+    }
   }
 }

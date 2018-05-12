@@ -116,9 +116,15 @@
     margin-bottom: 28px;
   }
 
-  .extra-product__title::after {
-    left: -25px;
-    min-width: 1300px;
+  .extra-product__title {
+    width: inherit;
+    margin-left: -15px;
+    padding: 0 15px;
+
+    &::after {
+      left: -25px;
+      min-width: 1300px;
+    }
   }
 
   .extra-product__block {
