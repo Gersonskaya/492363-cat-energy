@@ -70,7 +70,7 @@
   .features__item--one::after {
     position: absolute;
     top: 89px;
-    right: 36px;
+    right: 20px;
     z-index: -1;
     content: "1";
     font-family: "Oswald", "Arial", sans-serif;
@@ -81,7 +81,7 @@
   .features__item--two::after {
     position: absolute;
     top: 89px;
-    right: 36px;
+    right: 0;
     z-index: -1;
     content: "2";
     font-family: "Oswald", "Arial", sans-serif;
@@ -92,7 +92,7 @@
   .features__item--three::after {
     position: absolute;
     top: 89px;
-    right: 36px;
+    right: 0;
     z-index: -1;
     content: "3";
     font-family: "Oswald", "Arial", sans-serif;
@@ -103,7 +103,7 @@
   .features__item--four::after {
     position: absolute;
     top: 89px;
-    right: 36px;
+    right: 0;
     z-index: -1;
     content: "4";
     font-family: "Oswald", "Arial", sans-serif;
