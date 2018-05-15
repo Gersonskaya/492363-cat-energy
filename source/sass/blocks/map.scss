@@ -54,7 +54,8 @@
 
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
       background-image: url("./../img/bg-map-desktop@2x.png");
-      background-size: 1300px auto;
+      background-size: 1440px auto;
+      background-repeat: no-repeat;
       background-position: -70px 0;
     }
   }
