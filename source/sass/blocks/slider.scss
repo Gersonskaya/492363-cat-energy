@@ -43,7 +43,7 @@
       content: "";
       position: absolute;
       top: -1px;
-      left: 212px;
+      left: 213px;
       width: 8px;
       height: 8px;
       background-color: $decor-color;
@@ -54,7 +54,7 @@
       content: "";
       position: absolute;
       top: -14px;
-      left: 199px;
+      left: 200px;
       width: 32px;
       height: 32px;
       border: 1px solid $border-color;
@@ -90,12 +90,5 @@
     &:focus {
       outline: none;
     }
-  }
-}
-
-@media (min-width: $desktop-width) {
-  .slider {
-    bottom: 53px;
-    left: 645px;
   }
 }

@@ -29,11 +29,15 @@
   }
 
   .merchandise__title {
-    font-size: 19px;
+    font-size: 20px;
   }
 
   .merchandise__description {
     line-height: 25px;
+  }
+
+  .merchandise__amount {
+    margin-right: 47px;
   }
 
   .merchandise__price {
@@ -54,7 +58,7 @@
   }
 
   .merchandise__description {
-    width: 286px;
+    width: 290px;
     margin: 0;
     margin-top: 5px;
     margin-left: auto;

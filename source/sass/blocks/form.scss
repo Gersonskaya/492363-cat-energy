@@ -146,16 +146,15 @@
 
 @media (min-width: $tablet-width) {
   .form__input {
-    padding: 14.5px 20px;
+    padding: 13.5px 20px;
     margin-bottom: 20px;
-    font-size: 19px;
 
     &::placeholder {
-      font-size: 19px;
+      font-size: 20px;
     }
 
     &:focus {
-      padding: 13.5px 19px;
+      padding: 12.5px 19px;
     }
   }
 
@@ -175,16 +174,15 @@
 
   .form__textarea {
     max-height: 174px;
-    padding: 10px 19px;
+    padding: 13px 20px;
     margin-bottom: 20px;
-    font-size: 19px;
 
     &::placeholder {
-      font-size: 19px;
+      font-size: 20px;
     }
 
     &:focus {
-      padding: 9px 18px;
+      padding: 12px 19px;
     }
   }
 
@@ -221,7 +219,7 @@
 @media (min-width: $desktop-width) {
   .form__cat-info--block {
     display: flex;
-    margin-bottom: 72px;
+    margin-bottom: 70px;
   }
 
   .form-icon--mail {

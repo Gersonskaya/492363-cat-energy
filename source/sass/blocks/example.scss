@@ -53,14 +53,14 @@
 @media (min-width: $tablet-width) {
   .example {
     position: relative;
-    min-height: 1035px;
+    min-height: 1036px;
     padding: 0 30px;
     background: url("./../img/after-before-tablet.png") no-repeat 0 406px;
   }
 
   .example__title {
     margin-bottom: 63px;
-    font-size: 56px;
+    font-size: 60px;
   }
 
   .example__description {
@@ -79,7 +79,7 @@
     width: 184px;
     margin: 0;
     margin-left: auto;
-    font-size: 19px;
+    font-size: 20px;
     line-height: 28px;
     text-align: right;
   }
@@ -91,7 +91,7 @@
   .example__slider {
     position: absolute;
     bottom: 50px;
-    left: 53px;
+    left: 55px;
   }
 }
 
@@ -131,5 +131,10 @@
   .example__money-number {
     padding: 0 60px;
     text-align: center;
+  }
+
+  .example__slider {
+    bottom: 53px;
+    left: 647px;
   }
 }
