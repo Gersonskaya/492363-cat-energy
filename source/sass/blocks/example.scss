@@ -55,7 +55,14 @@
     position: relative;
     min-height: 1036px;
     padding: 0 30px;
-    background: url("./../img/after-before-tablet.png") no-repeat 0 406px;
+    background: url("./../img/after-before-tablet@1x.png") no-repeat 0 406px;
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-size: 768px auto;
+      background-image: url("./../img/after-before-tablet@2x.png");
+      background-repeat: no-repeat;
+      background-position: 0 406px;
+    }
   }
 
   .example__title {
@@ -101,7 +108,14 @@
     padding-left: 40px;
     padding-right: 795px;
     padding-bottom: 40px;
-    background: url("./../img/after-before-desktop.png") no-repeat -70px 0;
+    background: url("./../img/after-before-desktop@1x.png") no-repeat -70px 0;
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-size: 1440px auto;
+      background-image: url("./../img/after-before-desktop@2x.png");
+      background-repeat: no-repeat;
+      background-position: -70px 0;
+    }
   }
 
   .example__title {
