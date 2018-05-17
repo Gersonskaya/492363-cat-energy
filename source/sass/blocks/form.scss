@@ -46,10 +46,6 @@
   padding-right: 50px;
 }
 
-.form-icon {
-  display: block;
-}
-
 .form-icon--mail {
   position: absolute;
   top: 17px;
@@ -146,15 +142,16 @@
 
 @media (min-width: $tablet-width) {
   .form__input {
-    padding: 13.5px 20px;
+    padding: 14.5px 20px;
     margin-bottom: 20px;
+    font-size: 19px;
 
     &::placeholder {
-      font-size: 20px;
+      font-size: 19px;
     }
 
     &:focus {
-      padding: 12.5px 19px;
+      padding: 13.5px 19px;
     }
   }
 
@@ -174,15 +171,16 @@
 
   .form__textarea {
     max-height: 174px;
-    padding: 13px 20px;
+    padding: 10px 19px;
     margin-bottom: 20px;
+    font-size: 19px;
 
     &::placeholder {
-      font-size: 20px;
+      font-size: 19px;
     }
 
     &:focus {
-      padding: 12px 19px;
+      padding: 9px 18px;
     }
   }
 
@@ -219,7 +217,7 @@
 @media (min-width: $desktop-width) {
   .form__cat-info--block {
     display: flex;
-    margin-bottom: 70px;
+    margin-bottom: 72px;
   }
 
   .form-icon--mail {

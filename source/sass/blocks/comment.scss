@@ -34,7 +34,7 @@
     margin-left: -40px;
     margin-bottom: 81px;
     padding: 0 40px;
-    font-size: 36px;
+    font-size: 34px;
     background: $base-color;
 
     &::before {
@@ -48,7 +48,7 @@
 
 @media (min-width: $desktop-width) {
   .comment {
-    margin-bottom: 41px;
+    margin-bottom: 42px;
   }
 
   .comment__title {

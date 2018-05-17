@@ -1,12 +1,13 @@
 .address {
   position: absolute;
-  top: 0;
+  top: -80px;
   left: 0;
   display: flex;
   justify-content: space-between;
   width: 320px;
   padding: 28px 19px;
   box-sizing: border-box;
+  z-index: 1;
   background: $base-color;
 }
 
@@ -33,6 +34,7 @@
 
 @media (min-width: $tablet-width) {
   .address {
+    top: 0;
     width: 100%;
     max-height: 200px;
     padding: 66px 70px;
@@ -41,7 +43,7 @@
   .address__title {
     width: 200px;
     margin: 0;
-    font-size: 20px;
+    font-size: 19px;
     line-height: 25px;
   }
 

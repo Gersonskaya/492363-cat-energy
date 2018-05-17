@@ -1,6 +1,4 @@
 body {
-  width: 320px;
-  margin: 0 auto;
   padding: 0;
   font-family: "Arial", sans-serif;
   font-size: 14px;
@@ -8,6 +6,33 @@ body {
   font-weight: 400;
   color: $text-color;
   background-color: #ffffff;
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 320px;
+  box-sizing: border-box;
+}
+
+.line {
+  position: relative;
+  width: 100%;
+  z-index: -1;
+
+  &::before {
+    border-top: 3px solid $decor-color;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
 }
 
 .visually-hidden {
@@ -34,14 +59,17 @@ body {
 
 @media (min-width: $tablet-width) {
   body {
-    width: $tablet-width;
     font-size: 16px;
     line-height: 24px;
+  }
+
+  .container {
+    width: $tablet-width;
   }
 }
 
 @media (min-width: $desktop-width) {
-  body {
+  .container {
     width: $desktop-width;
   }
 }

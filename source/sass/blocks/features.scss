@@ -43,15 +43,15 @@
 
   .features__title {
     margin: 0;
-    margin-bottom: 70px;
-    font-size: 60px;
+    margin-bottom: 71px;
+    font-size: 56px;
   }
 
   .features__list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-right: 60px;
+    margin-right: 59px;
   }
 
   .features__item {
@@ -59,7 +59,7 @@
     display: block;
     max-width: 265px;
     min-height: 296px;
-    margin-bottom: 20px;
+    margin-bottom: 22px;
 
     &:nth-child(3),
     &:nth-child(4) {
@@ -69,8 +69,8 @@
 
   .features__item--one::after {
     position: absolute;
-    top: 87px;
-    right: 35px;
+    top: 89px;
+    right: 20px;
     z-index: -1;
     content: "1";
     font-family: "Oswald", "Arial", sans-serif;
@@ -80,8 +80,8 @@
 
   .features__item--two::after {
     position: absolute;
-    top: 87px;
-    right: 20px;
+    top: 89px;
+    right: 0;
     z-index: -1;
     content: "2";
     font-family: "Oswald", "Arial", sans-serif;
@@ -91,8 +91,8 @@
 
   .features__item--three::after {
     position: absolute;
-    top: 87px;
-    right: 20px;
+    top: 89px;
+    right: 0;
     z-index: -1;
     content: "3";
     font-family: "Oswald", "Arial", sans-serif;
@@ -102,8 +102,8 @@
 
   .features__item--four::after {
     position: absolute;
-    top: 87px;
-    right: 15px;
+    top: 89px;
+    right: 0;
     z-index: -1;
     content: "4";
     font-family: "Oswald", "Arial", sans-serif;
@@ -137,28 +137,5 @@
   .features__item:nth-child(3),
   .features__item:nth-child(4) {
     margin-bottom: 0;
-  }
-
-  .features__item--one::after {
-    top: 90px;
-    right: 15px;
-  }
-
-  .features__item--two::after {
-    position: absolute;
-    top: 90px;
-    right: 0;
-  }
-
-  .features__item--three::after {
-    position: absolute;
-    top: 90px;
-    right: 0;
-  }
-
-  .features__item--four::after {
-    position: absolute;
-    top: 90px;
-    right: -5px;
   }
 }

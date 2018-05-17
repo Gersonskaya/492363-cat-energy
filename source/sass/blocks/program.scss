@@ -125,17 +125,14 @@
     }
 
     &::before {
+      top: 92px;
+      left: 446px;
       width: 200px;
       height: 200px;
     }
   }
 
   .program__item--slim {
-    &::before {
-      top: 92px;
-      left: 446px;
-    }
-
     &::after {
       top: 80px;
       left: 476px;
@@ -152,11 +149,6 @@
   }
 
   .program__item--pro {
-    &::before {
-      top: 90px;
-      left: 448px;
-    }
-
     &::after {
       top: 135px;
       left: 412px;
@@ -173,14 +165,14 @@
   }
 
   .program__link {
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 19px;
+    line-height: 19px;
   }
 
   .program__title {
     margin: 0;
     padding: 0;
-    font-size: 36px;
+    font-size: 34px;
   }
 
   .program__description {
