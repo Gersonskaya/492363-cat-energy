@@ -49,10 +49,11 @@
   .weight {
     display: flex;
     flex-wrap: wrap;
+    width: 540px;
     margin: 0;
-    margin-bottom: 78px;
+    margin-bottom: 76px;
     padding-top: 23px;
-    padding-left: 90px;
+    padding-left: 88px;
     padding-bottom: 12px;
     padding-right: 0;
   }
@@ -83,7 +84,6 @@
   }
 
   .weight__radio {
-    font-size: 19px;
     margin-bottom: 13.5px;
   }
 }

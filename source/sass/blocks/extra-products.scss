@@ -4,17 +4,15 @@
 }
 
 .extra-products__title {
-  position: relative;
+  width: 270px;
   margin: 0;
   margin-bottom: 34px;
+  padding: 0;
+  padding-left: 20px;
   font-family: "Oswald", "Arial", sans-serif;
   font-size: 24px;
-  line-height: 1;
   font-weight: 400;
-  width: 270px;
-  padding: 0 0 0 20px;
   background: $base-color;
-  box-sizing: border-box;
 }
 
 .extra-products__price {
@@ -40,8 +38,10 @@
     margin-top: 10px;
     margin-bottom: 80px;
     width: 415px;
-    font-size: 33.5px;
-    padding: 0 0 0 35px;
+    font-size: 36px;
+    line-height: 40px;
+    padding: 0;
+    padding-left: 35px;
     margin-left: 30px;
   }
 
@@ -51,7 +51,7 @@
 
   .extra-products__list {
     margin-bottom: 70px;
-    border: 1px solid #f2f2f2;
+    border: 1px solid $block-color;
     border-bottom: none;
   }
 }
@@ -63,8 +63,9 @@
 
   .extra-products__title {
     margin-left: 0;
-    margin-bottom: 82px;
-    padding: 0 0 0 40px;
+    margin-bottom: 76px;
+    padding: 0;
+    padding-left: 40px;
   }
 
   .extra-products__price {

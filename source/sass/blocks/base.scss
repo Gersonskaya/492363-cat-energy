@@ -21,8 +21,8 @@ body {
 
 .line {
   position: relative;
-  width: 100%;
   z-index: -1;
+  width: 100%;
 
   &::before {
     border-top: 3px solid $decor-color;

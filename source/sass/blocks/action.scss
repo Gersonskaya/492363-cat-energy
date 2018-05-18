@@ -51,7 +51,7 @@
   }
 
   .action__description {
-    width: 195px;
+    width: 165px;
     margin-top: 0;
     padding-top: 4px;
     text-align: left;
@@ -68,7 +68,7 @@
     flex-direction: column;
     justify-content: space-between;
     min-height: 290px;
-    padding-top: 63px;
+    padding: 63px 45px;
     padding-bottom: 43px;
     background: $decor-color url("./../img/gift-photo-desktop@1x.jpg");
 

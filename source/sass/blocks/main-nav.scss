@@ -74,6 +74,7 @@
 
 @media (min-width: $tablet-width) {
   .main-nav {
+    min-width: 440px;
     margin-left: auto;
     border: none;
   }

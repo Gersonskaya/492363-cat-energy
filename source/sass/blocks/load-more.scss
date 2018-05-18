@@ -41,7 +41,7 @@
   }
 
   .load-more__title {
-    font-size: 19px;
+    font-size: 20px;
   }
 
   .load-more__description {
@@ -56,5 +56,13 @@
     padding: 39px;
     padding-top: 54px;
     padding-bottom: 68px;
+  }
+
+  .load-more__title {
+    width: 165px;
+  }
+
+  .load-more__description {
+    width: 170px;
   }
 }

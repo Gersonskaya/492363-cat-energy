@@ -1,6 +1,22 @@
 .map {
   position: relative;
-  padding-top: 76px;
+  padding-top: 77px;
+}
+
+.map__address {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: $base-color;
+}
+
+.map__address--catalog,
+.map__address--form {
+  background: $block-color;
 }
 
 .map__card {
@@ -17,6 +33,7 @@
   position: absolute;
   top: 126px;
   left: 65px;
+  z-index: 2;
 }
 
 @media (min-width: $tablet-width) {

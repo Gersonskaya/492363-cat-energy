@@ -58,7 +58,7 @@
   .product__title {
     margin: 0 60px;
     margin-bottom: 18px;
-    font-size: 19px;
+    font-size: 20px;
     text-align: center;
   }
 
@@ -72,16 +72,12 @@
   .product__column-left,
   .product__column-right {
     padding: 4px 2px;
+    padding-top: 3px;
     border-bottom: 1px solid $border-color;
   }
 }
 
 @media (min-width: $desktop-width) {
-  .price {
-    margin: 0;
-    padding: 0 40px;
-  }
-
   .product {
     padding: 37px;
     padding-top: 140px;
@@ -89,8 +85,12 @@
   }
 
   .product__image {
-    bottom: 225px;
+    bottom: 222px;
     width: 245px;
+  }
+
+  .product__info {
+    padding-top: 24px;
   }
 
   .product__title {
@@ -101,11 +101,5 @@
   .price__item {
     width: 245px;
     margin-bottom: 63px;
-  }
-}
-
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  .product__image {
-    width: 140px;
   }
 }

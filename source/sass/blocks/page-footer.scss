@@ -1,8 +1,11 @@
+.footer {
+  background: $block-color;
+}
+
 .page-footer {
   padding: 20px;
   padding-top: 15px;
   text-align: center;
-  background: $block-color;
 }
 
 .page-footer__logo {
@@ -25,7 +28,9 @@
 
 @media (min-width: $desktop-width) {
   .page-footer {
-    padding: 33px 39px;
+    padding-top: 33px;
+    padding-right: 31px;
     padding-bottom: 26px;
+    padding-left: 47px;
   }
 }

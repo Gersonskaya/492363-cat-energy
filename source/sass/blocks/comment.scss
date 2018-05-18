@@ -12,53 +12,40 @@
   font-size: 24px;
   line-height: 24px;
   font-weight: 400;
-
-  &::before {
-    position: absolute;
-    top: 14px;
-    right: -172px;
-    content: "";
-    min-width: 157px;
-    min-height: 1px;
-    border-top: 3px solid $decor-color;
-  }
+  background: $base-color;
 }
 
 @media (min-width: $tablet-width) {
   .comment {
-    margin-bottom: 40px;
+    margin-bottom: 44px;
   }
 
   .comment__title {
-    width: 260px;
-    margin-left: -40px;
-    margin-bottom: 81px;
-    padding: 0 40px;
-    font-size: 34px;
+    width: 240px;
+    margin-bottom: 83px;
+    margin-left: -20px;
+    padding: 0;
+    padding-left: 20px;
+    font-family: "Oswald", "Arial", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
     background: $base-color;
-
-    &::before {
-      top: 15px;
-      left: -27px;
-      z-index: -1;
-      min-width: 769px;
-    }
   }
 }
 
 @media (min-width: $desktop-width) {
   .comment {
-    margin-bottom: 42px;
+    margin-bottom: 46px;
   }
 
   .comment__title {
-    width: inherit;
-    margin-left: -15px;
-    padding: 0 15px;
+    width: 260px;
+    margin-left: 10px;
+    margin-bottom: 81px;
+    padding: 0 40px;
+  }
 
-    &::before {
-      left: -25px;
-      min-width: 1300px;
-    }
+  .comment__story {
+    padding: 0 48px;
   }
 }

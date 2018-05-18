@@ -19,25 +19,25 @@
   .info__description {
     width: 330px;
     margin-bottom: 66px;
-    padding-left: 40px;
-    font-size: 19px;
+    padding: 0 40px;
+    font-size: 20px;
     line-height: 30px;
   }
 
   .info__questions {
     margin-bottom: 71px;
-    padding: 0 38px;
+    padding: 0 40px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .info {
-    padding: 0 40px;
+    padding: 0;
     margin-bottom: 82px;
   }
 
   .info__description {
-    padding: 0;
+    padding: 0 50px;
   }
 
   .info__questions {

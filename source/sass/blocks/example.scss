@@ -1,23 +1,25 @@
 .example {
   padding-top: 15px;
-  padding-left: 20px;
+  padding-left: 21px;
   padding-right: 21px;
   padding-bottom: 20px;
+}
+
+.example__wrapper {
   background: $block-color;
 }
 
 .example__title {
-  margin: 0;
-  margin-bottom: 23px;
+  margin: 0 0 10px;
   font-family: "Oswald", "Arial", sans-serif;
   font-weight: 400;
   font-size: 36px;
   line-height: 60px;
+  padding: 15px 20px 0;
 }
 
 .example__description {
-  margin: 0;
-  margin-bottom: 25px;
+  margin: 0 0 23px;
 }
 
 .example__resources {
@@ -53,21 +55,25 @@
 @media (min-width: $tablet-width) {
   .example {
     position: relative;
-    min-height: 1036px;
+    min-height: 910px;
     padding: 0 30px;
-    background: url("./../img/after-before-tablet@1x.png") no-repeat 0 406px;
+  }
+
+  .example__wrapper {
+    background: url("./../img/after-before-tablet@1x.png") no-repeat center 406px;
 
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
-      background-size: 768px auto;
       background-image: url("./../img/after-before-tablet@2x.png");
+      background-size: 768px auto;
+      background-position: center 406px;
       background-repeat: no-repeat;
-      background-position: 0 406px;
     }
   }
 
   .example__title {
     margin-bottom: 63px;
     font-size: 60px;
+    padding: 0 30px;
   }
 
   .example__description {
@@ -98,29 +104,34 @@
   .example__slider {
     position: absolute;
     bottom: 50px;
-    left: 55px;
+    left: 53px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .example {
-    min-height: 612px;
+    width: 465px;
+    min-height: 352px;
     padding-left: 40px;
-    padding-right: 795px;
+    padding-right: 40px;
     padding-bottom: 40px;
-    background: url("./../img/after-before-desktop@1x.png") no-repeat -70px 0;
+  }
+
+  .example__wrapper {
+    background: url("./../img/after-before-desktop@1x.png") no-repeat center 0;
 
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
-      background-size: 1440px auto;
       background-image: url("./../img/after-before-desktop@2x.png");
+      background-size: 1440px auto;
+      background-position: center 0;
       background-repeat: no-repeat;
-      background-position: -70px 0;
     }
   }
 
   .example__title {
     margin-bottom: 146px;
-    padding-top: 55px;
+    padding: 55px 40px;
+    padding-bottom: 0;
   }
 
   .example__description {
@@ -145,10 +156,5 @@
   .example__money-number {
     padding: 0 60px;
     text-align: center;
-  }
-
-  .example__slider {
-    bottom: 53px;
-    left: 647px;
   }
 }
